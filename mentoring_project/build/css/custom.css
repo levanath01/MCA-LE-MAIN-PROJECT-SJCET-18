@@ -145,6 +145,7 @@ html , body{
 }
 .left_col {
     background: #2A3F54
+	
 }
 .nav-sm .container.body .col-md-3.left_col {
     min-height: 100%;
@@ -326,6 +327,7 @@ html , body{
 }
 .nav_menu {
     float: left;
+	
     background: #EDEDED;
     border-bottom: 1px solid #D9DEE4;
     margin-bottom: 10px;
