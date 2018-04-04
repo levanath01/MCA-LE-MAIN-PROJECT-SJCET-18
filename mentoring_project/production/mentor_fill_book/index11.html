@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    
+    <link rel="stylesheet" href="css/layouts/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+		<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/layouts/grids-responsive-min.css">
+		
+		
+		
+		
+		
+</head>
+<body>
+
+
+
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">MENTORING </a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link"></a></li>
+                <li class="pure-menu-item menu-item-divided pure-menu-selected"><a href="#" class="pure-menu-link">Save Section</a></li>
+				 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Back To Contents</a></li>
+
+               
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Mentor's Objective Impressions about the Mentee</h1>
+            <!--<h2>A subtitle for your page goes here</h2>-->
+        </div>
+
+        <div class="content">
+           <!-- <h2 class="content-subhead">How to use this layout</h2>-->
+		   
+		   
+	
+
+
+
+
+
+	
+		   
+		   
+		     <!-- Horizontal Form-->
+			<h2 class="content-subhead">27.First Impression about the mentee</h2> 
+           
+<form class="pure-form pure-form-stacked">
+
+
+    <fieldset>
+        
+
+       
+		
+		
+		 
+                <label for="character">a)Character</label>
+                <input id="character"  type="text"  placeholder="">
+            
+                <label for="personality">b)Personalityonality</label>
+                <input id="personality"  type="text"  placeholder="" >
+          
+                <label for="impressiveness">c)Impressiveness</label>
+                <input id="impressiveness" type="text"  placeholder="" >
+           
+          
+            
+      
+    
+	</fieldset>
+	
+	
+
+           
+
+		
+	
+	
+	
+		   
+		    <h2 class="content-subhead">28.Sources of parental income</h2>
+			
+		   <!-- Horizontal Form -->
+		   
+		   
+		   
+		   	   
+		   
+    <fieldset>
+	
+	
+        <label for="nri_parents" >a)Mention whether the  parents are NRI</label>
+		<input id="nri_parents" type="radio" name="No" value="opt1">Yes
+		<label for="nri_parent" ></label> <input id="nri_parent" type="radio" name="No" value="opt2">No
+ 
+        <label for="loan">b)If the mentee has vailed education loan,specify the bank & loan amount </label>
+        <textarea   placeholder="Text">
+		</textarea>
+	
+		
+		<label for="fee_concession">c)Fee concession,if any,received(from management)</label>
+        <input id="fee_concession" type="text" placeholder="">
+	
+	
+		<label for="scholership">d)Scholarship,if any,received,specify the amount received</label>
+         <textarea   placeholder="Text">
+		</textarea>
+	
+		 
+		<label for="financial_asst">e)Requiring financial assistance for specific needs like fee/books/uniforms/IVs/conveyance,if yes,specify the extent of support</label>
+		 <input id="pnt" type="radio" name="rd" value="opt1">Yes
+			<label  for="asst"  > <input id="nri_parents" type="radio" name="rd" value="opt2">No</label>
+		  
+		
+    </fieldset>
+
+		   
+		   
+		   
+		   
+		
+
+<h2 class="content-subhead">29.Economical & ethnical background of the Mentee(Especially mension the social class_middle class/upper class/poor):</h2>
+ <select id="bckgd">
+           <option selected="selected" value=" ">select</option>
+            <option value="uc">Upper Class</option>
+            <option value="mc">Middle Class</option>
+			<option value="poor">Poor</option>
+        </select>
+  
+ 
+  <fieldset>
+
+<label for="prntl_hrmy">30.Parental Harmony:</label>
+<input id="prntl_hrmy" type="text" placeholder="">
+<label for="personality">31.Relationship with parents & siblings:</label>
+<input id="reltnshp" type="text" placeholder="">
+<label for="atms">32.Atmosphere/support at home for studies:</label>
+<input id="atms" type="text" placeholder="">
+<label for="reli">33.Religious life/atrtitude towards ethics and morality:</label>
+<input id="reli" type="text" placeholder="">
+<label for="socio">34.Socio-political outlooks(identify party affilation ,if any):</label>
+<input id="socio" type="text" placeholder="">
+<label for="rdng">35.Reading habits(Name the Newspaper/Magazines the mentee usually reads:</label>
+<input id="rdng" type="text" placeholder="">
+<label for="bhv">36.Conduct & behaviour prior to joining SJCET as understood by the mentor through interactions with the mentee,or with persons having such information:</label>
+<input id="bhv" type="text" placeholder="">
+<label for="prntl_hrmy">37.Potentials (Skill) of the mentee (Identify those correctly):</label>
+ <textarea   placeholder="Text">
+		</textarea>
+		</fieldset>
+		
+		<fieldset>
+		
+<label for="atms">38.Weakness(Lack of essential skillsvsuch as English communication ability)of the mentee :</label>
+<input id="atms" type="text" placeholder="">
+<label for="atms">39.Adjustment of classs/college/hostel environment(Specify the extent):</label>
+ <textarea   placeholder="Text">
+		</textarea>
+<label for="prntl_hrmy">40.Addiction to habbits(Strictly Note):</label>
+<textarea   placeholder="Text">
+		</textarea>
+<label for="prntl_hrmy">41.Improvement areas:</label>
+<textarea   placeholder="Text">
+		</textarea>
+<label for="prntl_hrmy">42. A)Specify concers of the mentee as assured by the mentor:</label>
+a)<input id="atms" type="text" placeholder="">
+b)<input id="atms" type="text" placeholder="">
+<label for="comm">c)If the communication skill is concern,specify whether the mentee should be refered to the language lab:</label>
+ <input id="rents" type="radio" name="No" value="opt1">Yes</label>
+			<label  for="comm" ><input id="i_parents" type="radio" name="No" value="opt2">No</label>
+
+			
+			<h3 class="content-subhead">Details of Referral to language lab</h3>
+ <fieldset>
+ 
+<table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+            <th>Sl.No</th>
+            <th>Referral to language lab</th>
+            <th>Remarks by English communication faculity</th>
+           
+			
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+           
+        </tr>
+
+        <tr>
+           <td>2.</td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+         
+        </tr>
+
+       
+		
+		
+    </tbody>
+</table>
+  </fieldset>
+ 
+ <h3 class="content-subhead">Details of Referral to counselling</h3>
+  <fieldset>
+ 
+ <label for="counslg">B)Specify whether the mentee requires counselling/pshychiatric assistance:</label>
+ <input id="cp" type="radio" name="No" value="opt1">Yes</label>
+			<label  for="comm" ><input id="pc" type="radio" name="No" value="opt2">No</label>
+ <table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+            <th>Sl.No</th>
+            <th>Referral to counselling/pshychiatric assistance</th>
+            <th>Remarks by counsellor</th>
+           
+			
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+           
+        </tr>
+
+        <tr>
+           <td>2.</td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+            <td><input id="tb1" type="text" placeholder=""></td>
+         
+        </tr>
+
+       
+		
+		
+    </tbody>
+</table>
+  </fieldset>
+ 
+ <label for="rmy">43.Fitness for Engineering/Management/Opted profession/Entrepreneurship:</label>
+<input id="rmy" type="text" placeholder="">
+<label for="goal">44.Life Goals set(to be set) by the Mentee:</label>
+<input id="goal" type="text" placeholder="">
+ <h3 class="content-subhead">45.Overall observations(Noted through successive interactions):Mark Y/N</h3>
+ <fieldset>
+ <table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Attribute</th>
+            <th>Remarks</th>
+			 <th></th>
+			 <th></th>
+			  <th></th>
+			 <th></th>
+			  <th></th>
+			  <th></th>
+			 <th></th>
+			</tr>
+			<tr>
+			 <th></th>
+			 <th></th>
+			 <th>S1</th>
+			 <th>S2</th>
+			 
+			 <th>S3</th>
+			 
+			 <th>S4</th>
+			 
+			 <th>S5</th>
+			 
+			 <th>S6</th>
+			  
+			  <th>S7</th>
+			   
+			 <th>S8</th>
+			</tr> 
+		
+      
+    </thead>
+  <tbody>
+ 	<tr>
+			<td>1.</td>
+            <td>Whether introvent/extrovert</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+		<td>2.</td>
+            <td>Abnormal behaviour noted</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>	
+			
+			<td>3.</td>
+            <td>Abnormal health condition(physical)</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			
+			<td>4.</td>
+            <td>Erratic mental disposition/emotional stability</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>5.</td>
+            <td>Whether rebellious by nature</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>6.</td>
+            <td>Whether hyperactive(ADHD)</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>7.</td>
+            <td>History of prolonged medician for physical/mental ailments</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+		<td>8.</td>
+            <td>Whether observes personal hygine</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>	
+			
+			<td>9.</td>
+            <td>Whether creative/talented person</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			
+			<td>10.</td>
+            <td>Addicition to TV/media</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>11.</td>
+            <td>Addicition to socialmedia</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>12.</td>
+            <td>History of phychological/psychiatric counselling attented</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			
+			<td>13.</td>
+            <td>Whether properly groomed</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>14.</td>
+            <td>Compliance with college rules,including dress code</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+			
+			<td>15.</td>
+            <td>Pratice of etiquette/manners/courtesy</td>
+			<td><input type="checkbox" name="chk1" value="int">Y<br>
+			     <input type="checkbox" name="chk1" value="ext">N</td>
+			<td><input type="checkbox" name="chk2" value="in">Y
+			     <input type="checkbox" name="chk2" value="ex">N</td>
+			<td><input type="checkbox" name="chk3" value="i">Y
+			     <input type="checkbox" name="chk3" value="e">N</td>
+			<td><input type="checkbox" name="chk4" value="bo">Y
+			     <input type="checkbox" name="chk4" value="bx">N</td>
+			<td><input type="checkbox" name="chk5" value="iii">Y
+			     <input type="checkbox" name="chk5" value="eee">N</td>
+			<td><input type="checkbox" name="chk6" value="itt">Y
+			     <input type="checkbox" name="chk6" value="exx">N</td>
+			<td><input type="checkbox" name="chk7" value="iex">Y
+			     <input type="checkbox" name="chk7" value="eie">N</td>
+			<td><input type="checkbox" name="chk8" value="bon">Y
+			     <input type="checkbox" name="chk8" value="bxx">N</td>
+			</tr>
+				
+			
+     </tbody>
+</table>
+  </fieldset>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <button type="submit" class="pure-button pure-button-primary">Save</button>	
+</form>
+
+
+
+
+	   
+		   
+		   
+		   
+		   
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/ui.js"></script>
+
+</body>
+</html>
