@@ -115,31 +115,31 @@ return true;
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Mentee Name</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="text" class="form-control" placeholder="" name="sname" value="<?php echo $sname;?>">
+                          <input type="text" class="form-control" placeholder="" name="sname" value="<?php echo $sname;?>"required>
                         </div>
                       </div>
 					   <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Admission No.</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="text" class="form-control" placeholder="" name="sadmno"  value="<?php echo $sadmno;?>"onkeypress="return isNumberKey(event)">
+                          <input type="text" class="form-control" placeholder="" name="sadmno"  value="<?php echo $sadmno;?>"required>
                         </div>
                       </div>
 					   <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Roll No.</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="text" class="form-control" placeholder="" name="srno"  value="<?php echo $sroll;?>"onkeypress="return isNumberKey(event)">
+                          <input type="text" class="form-control" placeholder="" name="srno"  value="<?php echo $sroll;?>"onkeypress="return isNumberKey(event)"required>
                         </div>
                       </div>
 					  <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Admission date.</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="date" class="form-control" placeholder="" name="sdate"  value="<?php echo $sdate;?>">
+                          <input type="date" class="form-control" placeholder="" name="sdate"  value="<?php echo $sdate;?>"required>
                         </div>
                       </div>
 					  <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Mobile No.</label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input type="text" class="form-control" placeholder="" name="smob"  value="<?php echo $scont;?>"id="contact"onchange="return validate()">
+                          <input type="text" class="form-control" placeholder="" name="smob"  value="<?php echo $scont;?>"id="contact"onchange="return validate()"required>
                         </div>
                       </div>
 					  
